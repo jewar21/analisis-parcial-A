@@ -12,7 +12,7 @@ Asignatura: **Análisis de Algoritmos**
 
 - Tiempo máximo: **60 minutos**  
 - Cada parcial tiene **4 puntos (25 pts c/u)**  
-- Usa Python o pseudocódigo claro.  
+- Usa Python o Java.  
 - Para comparar funciones, basta con un **`for` + `if`** y reportar el menor `n` que verifica la desigualdad.  
 - Justifica con fórmulas y razonamiento.  
 
