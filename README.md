@@ -32,10 +32,43 @@ Si dos son del mismo orden, indícalo.
 ### Punto 2 (25 pts) — Identifica y confronta
 Asocia cada \(T(n)\) con un algoritmo plausible. Luego compara **dos pares** y encuentra el umbral de `n` con un `for` + `if`.
 
-- T1(n) = 3n^2 + 50n 
+- T1(n) = 3n^2 + 50n  
 - T2(n) = 8nlog2(n) + 200 
 - T3(n) = 0.2n^3
 - T4(n) = 2^n
+
+///  respuesta
+  -import math
+
+def compare():
+    variable = 0
+    for n in range(1, 100):
+        if (3 * n ** 2 + 50 * n):
+            variable = n
+            return n
+
+print(compare())
+n=9
+print(3 * n ** 2 + 50 * n) insertion 
+-def compares():
+    
+    for n in range(1, 100):
+        if (8 * n * math.log2(n)):
+            
+         return n
+compare = compares()
+print(f"El cruce ocurre cerca de n ≈ {compares}")
+print(f"Conclusión: Para n ≥ {compares}")
+
+-def compare2():
+    variable = 0
+    for n in range(1, 100):
+        if (n**2 + 2**n):
+            variable = n
+            return n
+print(compare2())
+n=9
+print(n + 2 ** n) 
 
 Algoritmos posibles:  
 - Insertion/Bubble (peor caso)  
@@ -49,7 +82,13 @@ Algoritmos posibles:
 #### Isaac y los intervalos mágicos
 
 Isaac, convencido de que tiene un talento especial para los números, asegura que puede contar al instante cuántos primos existen en cualquier rango que le propongan sus amigos. Para comprobarlo, ellos le entregan una lista con N pares de números (a,b), y él debe responder de inmediato cuántos números primos hay en cada intervalo. A partir de esta historia, elabora el análisis necesario para resolver el problema y define claramente qué se recibe como entrada, qué se debe producir como salida y qué lógica se requiere para verificar la afirmación de Isaac. 
-
+Respuesta 
+entradas 
+una variable para capturar el 1 intervalo 
+segunda variable para capturar el segundo intervalo 
+contador que me vaya contando los numeros primos que vaya encontrando
+salida 
+mensaje diciendo si es primo o no 
 ---
 
 ### Punto 4 (25 pts) — Cuestionario
