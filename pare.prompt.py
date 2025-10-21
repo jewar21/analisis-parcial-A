@@ -10,15 +10,10 @@ def compare():
 print(compare())
 n=9
 print(3 * n ** 2 + 50 * n)
-
-
-
-
 def compares():
     
     for n in range(1, 100):
         if (8 * n * math.log2(n)):
-            
          return n
 compare = compares()
 print(f"El cruce ocurre cerca de n ≈ {compares}")
